@@ -32,7 +32,7 @@ class Artist
     end
   end
 
-  def self.songs
+  def songs
     @songs
   end
 

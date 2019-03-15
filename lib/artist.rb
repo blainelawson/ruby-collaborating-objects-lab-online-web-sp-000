@@ -25,6 +25,6 @@ class Artist
   end
 
   def self.find_or_create_by_name(name)
-    # binding.pry
+    binding.pry
   end
 end

@@ -13,7 +13,6 @@ class Artist
     # binding.pry
     @songs << song
     song.artist = self
-    @@all << song
   end
 
   def save

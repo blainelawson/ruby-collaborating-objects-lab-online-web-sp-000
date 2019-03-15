@@ -30,7 +30,7 @@ class Artist
       @@all << self
       artist
     else
-      @@all << self
+      artist
     end
   end
 

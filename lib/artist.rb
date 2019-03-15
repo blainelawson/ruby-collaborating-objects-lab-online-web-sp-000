@@ -28,6 +28,7 @@ class Artist
     if !self.all.find {|artist| artist.name == name}
       @name = self.new(name)
       @@all << self
+      @name
     end
   end
 end

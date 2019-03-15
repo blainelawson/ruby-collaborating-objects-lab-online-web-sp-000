@@ -11,7 +11,7 @@ class Song
   end
 
   def self.new_by_filename(file_name)
-    binding.pry
+    # binding.pry
     @name = self.new(file_name.split(" - ")[1], file_name.split(" - ")[0], file_name.split(" - ")[2].gsub(".mp3",""))
     @@all << self
 

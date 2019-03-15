@@ -14,7 +14,7 @@ class Song
     # binding.pry
     @name = self.new(file_name.split(" - ")[1], file_name.split(" - ")[0], file_name.split(" - ")[2].gsub(".mp3",""))
     Artist.find_or_create_by_name(@name)
-    # binding.pry
+    binding.pry
     @name
   end
 end

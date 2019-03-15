@@ -30,7 +30,7 @@ class Artist
       @@all << self
       artist
     else
-      artist
+      return self.all.find {|artist| artist.name == name}
     end
   end
 

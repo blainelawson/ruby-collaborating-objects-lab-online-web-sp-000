@@ -14,8 +14,6 @@ class Artist
     @songs << song
     song.artist = self
     binding.pry
-    @@all << self
-    binding.pry
   end
 
   def save

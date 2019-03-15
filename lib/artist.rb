@@ -28,8 +28,8 @@ class Artist
     if !self.all.find {|artist| artist.name == name}
       @name = self.new(name)
       # binding.pry
-    else
-      @name
+    # else
+    #   @name
     end
   end
 end

@@ -29,6 +29,8 @@ class Artist
       artist = self.new(name)
       @@all << self
       artist
+    else
+      @@all << self
     end
   end
 
